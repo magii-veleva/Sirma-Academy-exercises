@@ -14,7 +14,7 @@ Set the HTML title to be the same as the task name.
 **3. Order and Unordered Lists** <br>
 Create a Web Page like the following:
  
-Use <ol>, <ul>, and <li>. You need to use lists nested into the list items from the upper level.
+Use "<ol>", "<ul>", and "<li>". You need to use lists nested into the list items from the upper level.
 Create a file named nested-lists.html. Set the HTML title to be the same as the task name.
 
 **4. Links** <br>
