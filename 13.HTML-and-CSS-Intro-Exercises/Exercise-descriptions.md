@@ -29,6 +29,7 @@ Create a file named images.html. Download some images from web and put them insi
 Create a Web Page that displays a table using &lt;table&gt;, &lt;tr&gt;, &lt;td&gt;, and &lt;th&gt; tags.
  
 Create a file named table.html. Include a caption for the table. Set the HTML title to be the same as the task name.
+
 **7. Forms** <br>
 Create a Web Page with a form that includes text inputs, checkboxes, and a submit button using &lt;form&gt;, &lt;input&gt;, and &lt;button&gt; tags.
 Create a file named forms.html. Ensure all form elements are appropriately labeled. Set the HTML title to be the same as the task name.
