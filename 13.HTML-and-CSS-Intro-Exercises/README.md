@@ -24,6 +24,7 @@ Create a file named links.html. Include internal, external, and anchor links. Se
 **5. Images** <br>
 Create a Web Page that includes several images using <img> tags.
 Create a file named images.html. Download some images from web and put them inside the images.html directory. Set the HTML title to be the same as the task name.
+
 **6. Table** <br>
 Create a Web Page that displays a table using <table>, <tr>, <td>, and <th> tags.
  
