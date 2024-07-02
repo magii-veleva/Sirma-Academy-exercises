@@ -1,0 +1,17 @@
+h1 {
+    color: darkblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+span{
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: violet;
+}
+.second-paragraph{
+    color: red;
+}
+#third-paragraph{
+    color: green;
+}
