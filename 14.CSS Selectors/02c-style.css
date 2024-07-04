@@ -1,0 +1,9 @@
+.common-style {
+    color: white;
+    background-color: violet;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,14 @@
+h1 {
+    color: red;
+    text-decoration: underline;
+}
+p {
+    font-weight: bold;
+    color: green;
+    font-size: larger;
+}
+div {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    font-style: italic;
+}

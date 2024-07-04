@@ -1,0 +1,10 @@
+a[href="https://example.com"] {
+    text-decoration: none;
+    margin-right: 20px;
+    color: violet;
+}
+a[href="https://another.com"]{
+    text-decoration: none;
+    background-color: darkkhaki;
+    color: brown;
+}

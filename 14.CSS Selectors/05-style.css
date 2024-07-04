@@ -1,0 +1,5 @@
+.fixed-width {
+    width: 300px;
+    background-color: blue;
+    border-radius: 10px;
+}
