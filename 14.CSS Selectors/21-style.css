@@ -1,0 +1,9 @@
+.box-model{
+    border: solid;
+    border-radius: 5px;
+    border-style: dashed;
+    background-color: aquamarine;
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+}
