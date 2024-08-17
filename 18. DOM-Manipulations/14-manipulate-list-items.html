@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulate list items</title>
+</head>
+<body>
+    <div id="list-app">
+        <p>Click on the item to change the text, or click on the button to create a new item.</p>
+        <ul id="items">
+        </ul>
+        <input type="text" value="">
+        <button type="button">Create New</button>
+      <div>
+      
+        <script>
+          const listContainer = document.getElementById('items');
+const inputElement = document.querySelector('input[type="text"]');
+const createButton = document.querySelector('button');
+
+function createListItem(text) {
+  const li = document.createElement('li');
+  li.textContent = text;
+
+  const editButton = document.createElement('button');
+  editButton.textContent = 'Edit';
+  editButton.addEventListener('click', () => {
+    const newText = prompt('Enter new text:', li.textContent);
+    if (newText !== null) {
+      li.textContent = newText;
+    }
+  });
+
+  li.appendChild(editButton);
+
+  return li;
+}
+
+createButton.addEventListener('click', () => {
+  const newItemText = inputElement.value.trim();
+  if (newItemText !== '') {
+    const newListItem = createListItem(newItemText);
+    listContainer.appendChild(newListItem);
+    inputElement.value = '';
+  }
+});
+            
+        </script>
+</body>
+</html>

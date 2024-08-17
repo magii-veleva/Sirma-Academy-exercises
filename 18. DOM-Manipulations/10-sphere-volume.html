@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .volume-calc{
+            border: 3px solid rgba(70, 69, 69, 0.873);
+        }
+        form{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="volume-calc">
+        <h3>Input radius and get the volume of a sphere</h2>
+
+    <form action="">
+        <label for="radius">Radius</label><br>
+        <input type="number" id="radius"> <br>
+        <label for="volume">Volume</label> <br>
+        <input type="text" id="volume" placeholder="0.000"><br>
+       <button onclick="volumeCalculator(event)">Calculate</button>
+    </form>
+    </div>
+
+    <script>
+        function volumeCalculator() {
+            event.preventDefault();
+            const radiusInput = document.getElementById("radius");
+            const radius = parseFloat(radiusInput.value);
+            const volume = document.getElementById("volume");
+
+            const volumeResult = (4 / 3) * Math.PI * Math.pow(radius, 3);
+            volume.value = String(volumeResult.toFixed(4));
+            
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <a href="#" id="highlinght-link">link</a>
+
+    <p><b>We</b> have just started <b>this</b> section for the users (beginner to intermediate) 
+        who <b>want</b> to work with <b>various</b> JavaScript <b>problems</b> and write scripts
+         online to <b>test</b> their JavaScript <b>skill</b>.
+        </p>
+
+        <script>
+            function highlightBoldWords() {
+                const link = document.getElementById('highlinght-link');
+                const paragraph = document.querySelector('p');
+
+                link.addEventListener('mouseover', () => {
+                    const boldWords = paragraph.querySelectorAll('b');
+                    boldWords.forEach(word => {
+                        word.style.backgroundColor = 'yellow'
+                    })   
+                })
+                link.addEventListener('mouseout', () => {
+                    const boldWords = paragraph.querySelectorAll('b');
+                    boldWords.forEach(word => {
+                        word.style.backgroundColor = '';
+                    })  
+                })
+            }
+            highlightBoldWords()
+        </script>
+</body>
+</html>
